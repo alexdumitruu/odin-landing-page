@@ -111,37 +111,44 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 .second-section-header {
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 900;
     margin-bottom: 5px;
     color: #1F2937;
 }
 
 .main-part {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
 }
 
 .square-and-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     width:20%;
 }
 
 .square {
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     border: 3px solid #3882F6;
     border-radius: 10px;
 }
 
 .text {
-
+    text-align: center;
+    height: 150px;
+    width: 150px;    
 }
 
 /*THIRD SECTION*/
