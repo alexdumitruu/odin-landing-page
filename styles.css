@@ -62,7 +62,7 @@ body {
     color: #F9FAF8;
     margin-top: 100px;
     margin-bottom: 100px;
-    gap: 30px;
+    gap: 50px;
 }
 
 .left-container {
@@ -95,8 +95,9 @@ body {
 }
 
 .right-container {
-    width: 50%;
-    height: 20%;
+    display: flex;
+    justify-content: center;
+
 }
 
 /*SECOND SECTION*/
@@ -152,6 +153,32 @@ body {
 }
 
 /*THIRD SECTION*/
+
+.third-section-wrapper {
+    background-color: #E5E7EB;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.third-section {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 120px 0;
+}
+
+.third-section-paragraph-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.third-section-name {
+    text-align: right;
+    font-weight: 700;
+}
 
 /*FOURTH SECTION*/
 
