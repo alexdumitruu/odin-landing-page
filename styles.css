@@ -182,4 +182,49 @@ body {
 
 /*FOURTH SECTION*/
 
+.fourth-section-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.big-blue-square {
+    width: 70vw;
+    height: auto;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.action {
+    margin: 0;
+}
+
+.description {
+    margin: 0;
+}
+
+.right-section {
+
+}
+
 /*FOOTER*/
